@@ -32,9 +32,10 @@ import jakarta.validation.Valid;
 @Controller
 @RequestMapping("/books")
 public class BookController {
-
+	
 	BookController() {
 		System.out.println("BookController 객체 생성");
+		System.out.println("수정함");
 	}
 
 	@Autowired
